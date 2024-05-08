@@ -46,7 +46,7 @@ header {
 }
 
 .hero-section {
-  background-color: #4CAF50;
+  background-color: #fc0352;
   color: #fff;
   padding: 50px 0;
   text-align: center;
@@ -79,7 +79,7 @@ section {
 section h2 {
   margin-bottom: 10px;
   font-size: 1.5em;
-  color: #4CAF50;
+  color: #fc0352;
 }
 
 .server-info ul,
@@ -101,7 +101,7 @@ section code {
 
 .server-info a,
 section a {
-  color: #007bff;
+  color: #03fc20;
   text-decoration: none;
 }
 
@@ -121,11 +121,11 @@ section a:hover {
 }
 
 .feature-box.creative {
-  background-color: #ffeb3b;
+  background-color: #0398fc;
 }
 
 .feature-box.survival {
-  background-color: #03a9f4;
+  background-color: #03fc20;
 }
 
 .staff-list {
