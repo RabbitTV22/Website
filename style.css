@@ -11,6 +11,11 @@ body {
   background-color: #f8f8f8;
 }
 
+.section-image {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
   background-color: #333;
   padding: 10px 0;
