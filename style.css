@@ -11,11 +11,6 @@ body {
   background-color: #f8f8f8;
 }
 
-.section-image {
-  max-width: 100%;
-  height: auto;
-}
-
 header {
   background-color: #333;
   padding: 10px 0;
@@ -106,7 +101,7 @@ section code {
 
 .server-info a,
 section a {
-  color: #03fc20;
+  color: #007bff;
   text-decoration: none;
 }
 
@@ -132,7 +127,10 @@ section a:hover {
 .feature-box.survival {
   background-color: #03fc20;
 }
-
+.section-image {
+  max-width: 100%;
+  height: auto;
+}
 .staff-list {
   list-style: none;
 }
@@ -155,4 +153,69 @@ section a:hover {
   section {
     padding: 10px;
   }
+}
+#alertBox {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #f44336;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  right: 30px;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#alertBox.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+button {
+  border: none;
+  color: blue;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: blue;
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px 5px;
+  cursor: pointer;
+  background-color: #03fc20;
+  transition-duration: 0.4s;
+  font-weight: bolder;
+}
+button:hover{
+  background-color: blue;
+  color: #03fc20;
+}
+.footer, footer{
+  background-color: #0398fc;
+  color: #000000;
+  border-color: #03fc20;
+  padding: 12px;
 }

@@ -59,3 +59,18 @@ toggleSwitch.addEventListener('change', function(event) {
     localStorage.setItem('theme', 'light');
   }
 });
+
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(function() {
+    /* Show the alert box */
+    showAlert();
+  }, function(err) {
+    console.error('Async: Could not copy text: ', err);
+  });
+}
+
+function showAlert() {
+  var alertBox = document.getElementById("alertBox");
+  alertBox.className = "show";
+  setTimeout(function(){ alertBox.className = alertBox.className.replace("show", ""); }, 3000);
+}

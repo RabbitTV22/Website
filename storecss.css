@@ -44,7 +44,15 @@ header {
 .navbar ul li a:hover {
   background-color: #555;
 }
+.vip{
+  color: #ff00ee;
 
+}
+.legend{
+  color: #ffb300;
+
+
+}
 .hero-section {
   background-color: #fc0352;
   color: #fff;
@@ -76,7 +84,7 @@ section {
 }
 
 .server-info h2,
-section h2 {
+section  h2{
   margin-bottom: 10px;
   font-size: 1.5em;
   color: #fc0352;
@@ -91,12 +99,20 @@ section h1 {
 section ul {
   list-style: none;
 }
-
+.section-image {
+  max-width: 100%;
+  height: auto;
+}
 .server-info li,
 section li {
   margin-bottom: 10px;
 }
-
+.footer, footer{
+  background-color: #0398fc;
+color: #000000;
+border-color: #03fc20;
+  padding: 12px;
+}
 .server-info code,
 section code {
   background-color: #f4f4f4;
@@ -106,7 +122,7 @@ section code {
 
 .server-info a,
 section a {
-  color: #03fc20;
+  color: #007bff;
   text-decoration: none;
 }
 
