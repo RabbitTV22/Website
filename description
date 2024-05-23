@@ -1,0 +1,30 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link rel="stylesheet" href="dstyle.css">
+</head>
+<body>
+<header>
+  <h1>About Me</h1>
+</header>
+
+<ul>
+  <li class="list-item">Age: 16</li>
+  <li class="list-item">Location: Canada 🍁</li>
+  <li class="list-item">Pronouns: He/him</li>
+  <li class="list-item">Birthday: December 22nd 🎈</li>
+  <li class="list-item">My Minecraft Server: <a href="https://discord.gg/AGnu449cMf">Join my Discord server</a></li>
+  <li class="list-item">I LOVE rabbits! <img style= "  align-content: center: 40px;  padding-bottom: 0px; width: 70px; height: 70px;" src="https://png.pngtree.com/png-clipart/20230528/ourmid/pngtree-funny-bunny-or-baby-rabbit-for-easter-day-on-isolated-background-png-image_7110369.png" alt="Rabbit Emoji"></li>
+  <li class="list-item mc-username">Minecraft Username: RabbitTV </li><img style= "width: 65px; height: 65px;" src="https://mc-heads.net/head/RabbitTV" alt="RabbitTV Head">
+  <li class="list-item rest-in-peace">Rest in peace, Lynja </li>
+  <li class="list-item real-name">Real Name: Alec</li>
+  <li class="list-item pronouns-page"><a href="https://en.pronouns.page/@RabbitTV">My Pronouns Page</a></li>
+  <li class="list-item">I'm a bit shy</li>
+  <li class="list-item">I stream on Twitch: <a href="https://twitch.tv/rabbittv">Follow me on Twitch</a></li>
+  <li class="list-item">Please bump DM after 24h</li>
+  <li class="list-item">I read every DM and ping</li>
+  <li class="list-item"><a href="mailto:support@rabbit-network.net">Email me at support@rabbit-network.net</a></li>
+  <li class="list-item cuddles">In need of cuddles</li>
+  <li class="list-item custom-art">Don't ask me about custom art,
